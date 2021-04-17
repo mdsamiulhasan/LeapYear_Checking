@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>JavaScript: Check whether a given year is a leap year in the Gregorian calendar</h4>
+    <h5>Solution: </h5>
+
+     <h2>Check out leap Year</h2>
+
+
+
+
+    <script>
+         function leapyear(year){
+             return (year % 400)? (year % 100) : (year % 4 === 0);
+         }
+
+         document.write(leapyear(2020))
+         document.write("<br>")
+         
+         document.write(leapyear(2024))
+         document.write("<br>")
+         document.write(leapyear(2022))
+
+    </script>
+</body>
+</html>
